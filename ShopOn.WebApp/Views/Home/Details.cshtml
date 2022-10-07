@@ -1,0 +1,43 @@
+﻿@model ShopOn.CommonLayer.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+
+<div class="container">
+    <hr />
+
+    @if (Model == null)
+            {
+                <div class="row">
+                    <div class="col-12">
+                        <label class="card-text font-weight-bold">No Such Product Exist</label>
+                    </div>
+                </div>
+            }
+            else
+            {
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <img src="~/@Url.Content(Model.ImageUrl)" />
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2 class="pname">@Model.ProductName</h2>
+                    <p class="card-text">
+                        <span class="inr-sign"></span>
+                        <span class="price">@Model.ProductPrice</span>
+                    </p>
+                    <div>
+                        <a class="btn btn-outline-dark" asp-controller="Cart" asp-action="AddToCart" asp-route-pid="@Model.ProductId">Add to Cart</a>
+                        <a class="btn btn-outline-danger" asp-controller="Cart" asp-action="BuyNow" asp-route-pid="@Model.ProductId">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            }   
+    <hr />
+</div>
+<div>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">Countinue Shopping</a>
+</div>

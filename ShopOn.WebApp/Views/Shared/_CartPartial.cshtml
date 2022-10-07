@@ -1,0 +1,18 @@
+﻿@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor httpContextAccessor;
+ 
+<div class="navbar-nav justify-content-end">
+    <a asp-controller="Cart" asp-action="DisplayCartData">
+        <div class="cart-img"></div>
+        @if (httpContextAccessor.HttpContext.Session.GetInt32("CartCount") == null) 
+        {
+            <span class="badge badge-pill cart-pill">0</span>
+        }
+        else
+        {
+            <span class="badge badge-pill cart-pill">
+                @httpContextAccessor.HttpContext.Session.GetInt32("CartCount")
+            </span>   
+        }
+    </a>
+</div>

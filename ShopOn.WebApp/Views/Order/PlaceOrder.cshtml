@@ -1,0 +1,58 @@
+﻿@model ShopOn.CommonLayer.Models.Order
+
+@{ ViewData["Title"] = "PlaceOrder"; }
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h4>Order</h4>
+            <hr />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="card-text">Order Placed:</span>
+                            <span class="card-text">@Model.OrderDate</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="card-text">Order: #</span>
+                            <span class="card-text">@Model.OrderId</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @foreach (var item in Model.GetOrderItem())
+                    {
+        <div class="row">
+            <div class="col-6">
+                <span class="card-text">@item.PId</span>
+            </div>
+            <div class="col-6">
+                <span class="card-text">@item.Qty</span>
+            </div>
+        </div>}
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-12">
+                            <label class="text-black-50">
+                                Total Amount:
+                            </label>
+                            <span class="inr-sign"></span>
+                            <span class="price">@Model.OrderTotal</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
