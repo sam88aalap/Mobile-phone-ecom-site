@@ -1,0 +1,24 @@
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.deps.json
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.dll
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ref\ShopOn.CommonLayer.dll
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.pdb
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.csproj.AssemblyReference.cache
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.AssemblyInfoInputs.cache
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.AssemblyInfo.cs
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.csproj.CoreCompileInputs.cache
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.dll
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ref\ShopOn.CommonLayer.dll
+D:\DotNet Training\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.pdb
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.deps.json
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.dll
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ref\ShopOn.CommonLayer.dll
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\bin\Debug\net5.0\ShopOn.CommonLayer.pdb
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.csproj.AssemblyReference.cache
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.AssemblyInfoInputs.cache
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.AssemblyInfo.cs
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.csproj.CoreCompileInputs.cache
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.dll
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ref\ShopOn.CommonLayer.dll
+D:\ShopOnApp\ShopOnApp\ShopOn.CommonLayer\obj\Debug\net5.0\ShopOn.CommonLayer.pdb

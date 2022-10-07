@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shopon.WebService</name>
+    </assembly>
+    <members>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Get">
+            <summary>
+            Returns all products
+            </summary>
+            <returns>List of products</returns>
+            <remarks>
+                Sample request:
+                
+                    GET: /api/Product
+            </remarks>
+        </member>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Get(System.Int32)">
+            <summary>
+            Returns a product
+            </summary>
+            <returns>A products</returns>
+            <remarks>
+                Sample request:
+                
+                    GET: /api/Product/1
+            </remarks>
+        </member>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Search(System.String)">
+            <summary>
+            Returns all products based on the key
+            </summary>
+            <returns>List of products based on the key</returns>
+            <remarks>
+                Sample request:
+                
+                    GET: /api/Product/Search/{key}
+            </remarks>
+        </member>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Create(Shopon.CommonLayer.Model.product)">
+            <summary>
+            Add a product
+            </summary>
+            <returns>Create product</returns>
+            <remarks>
+                Sample request:
+                
+                    POST: /api/Product
+            </remarks>
+        </member>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Update(System.Int32,Shopon.CommonLayer.Model.product)">
+            <summary>
+            Update a product
+            </summary>
+            <returns>Update product</returns>
+            <remarks>
+                Sample request:
+                
+                    PUT: /api/Product/1
+            </remarks>
+        </member>
+        <member name="M:Shopon.WebService.Controllers.ProductController.Delete(System.Int32)">
+            <summary>
+            Delete a product
+            </summary>
+            <returns>Void</returns>
+            <remarks>
+                Sample request:
+                
+                    GET: /api/Product/1
+            </remarks>
+        </member>
+    </members>
+</doc>
