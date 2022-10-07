@@ -1,0 +1,137 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+/*inr-sign*/
+.inr-sign::before {
+    content: 'Rs.';
+    position: relative;
+    top: -0.5rem;
+    color: #B12704;
+}
+
+.p-name {
+    font-size: 1.2rem;
+    
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #B12704;
+    font-family: Arial;
+    text-decoration: none;
+}
+
+/*to remove underline from text while hovering*/
+a:hover {
+    text-decoration: none;
+}
+.card:hover {
+    z-index: 1;
+    transform: scale(1.05);
+    box-shadow: 0 0 50px;
+    
+}
+
+.cart-product-img{
+    width: 80px;
+    height: 130px;
+}
+
+.cart-dt{
+    background-color: #fff;
+    border-color: black;
+    margin-block: 0px;
+    padding: 9px;
+    box-shadow: 5px 4px 5px #ccc;
+}
+
+.btnRemove{
+    position: relative;
+    top: -2px;
+}
+
+.cart-img{
+    background-image: url('../images/cart1.png');
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    position:relative;
+    top:10px;
+}
+
+.cart-pill{
+    position: relative;
+    top: -32px;
+    font-size: 11px;
+    background: beige;
+    opacity: .7;
+}
